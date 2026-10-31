@@ -84,7 +84,7 @@ const DEFAULT_PROJECTS = [
   },
   {
     id: 4,
-    title: 'DESIGN AND CONSTRUCTION OF A GOODS TRANSPORTING ROBOT BASED ON A HAIWELL PLC WITH A CONTROL SYSTEM INTEGRATED REMOTE CONTROL INTERNET OF THINGS',
+    title: 'Design And Construction Of A Goods Transporting Robot Based On A Haiwell PLC With A Control System Integrated Remote Control Internet Of Things',
     description: 'Designed an IoT-based material handling robot controlled by a Haiwell PLC (AH1680T) and Raspberry Pi 4 via Modbus TCP/IP and a Flask web interface. Supports dual-mode operation (remote manual control & autonomous line following) with YOLOv8 vision detection and ArUco marker localization, achieving a 100% navigation success rate and 0.08 ms execution response.',
     image: 'projek 5.png',
     images: ['projek 5.png', 'projek 6.png', 'projek 14.png', 'projek 18.png', 'projek 19.png'],
@@ -104,7 +104,7 @@ const DEFAULT_PROJECTS = [
   },
   {
     id: 6,
-    title: 'design of salted fish dryer based on Arduino Uno',
+    title: 'Design Of Salted Fish Dryer Based On Arduino Uno',
     description: 'This salted fish dryer is built on an Arduino Uno microcontroller, DHT22 temperature and humidity sensor, and a 16x2 LCD display. This system is designed to control the drying process of salted fish automatically based on time and temperature parameters.',
     image: 'projek 7.jpg',
     images: ['projek 7.jpg'],
