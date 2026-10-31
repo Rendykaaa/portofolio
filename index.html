@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfolio personal - Mahasiswa D3 Teknik Elektronika Polines. Lihat project dan karya terbaik saya.">
+  <meta name="keywords" content="portfolio, teknik elektronika, polines, mahasiswa, projects">
+  <title>Portfolio — Rendy</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+</head>
+
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo" id="nav-logo">Rendy<span class="logo-dot">.</span></a>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="nav-toggle" id="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-grid"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          <span id="hero-badge-text">D3 Electrical Engineering Student</span>
+        </div>
+        <h1 class="hero-title">
+          Hello, I'm <span class="highlight" id="hero-name">Rendy</span>
+        </h1>
+        <div class="hero-typing">
+          <span id="typing-text"></span><span class="cursor"></span>
+        </div>
+        <p class="hero-description" id="hero-description">
+          D3 Electrical Engineering Student at Politeknik Negeri Semarang (Polines).
+          Passionate about electronics, IoT, and technological development.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <span>🚀</span> View Projects
+          </a>
+          <a href="#contact" class="btn btn-light">
+            <span>✉️</span> Contact Me
+          </a>
+          <a href="#" id="hero-cv-btn" class="btn btn-light" download style="display: none;">
+            <span>📄</span> Download CV
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-avatar-wrapper" id="hero-avatar-wrapper">
+          <div class="hero-avatar-ring"></div>
+          <!-- Avatar will be inserted by JS -->
+          <div class="hero-float-badge">⚡ Electronics</div>
+          <div class="hero-float-badge">🔧 IoT</div>
+          <div class="hero-float-badge">💻 Coding</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-image reveal-left">
+        <div id="about-image-container">
+          <div class="about-img-placeholder">📸</div>
+        </div>
+        <div class="about-decoration"></div>
+      </div>
+      <div class="about-content reveal-right">
+        <span class="section-label">About Me</span>
+        <h2 class="section-title" id="about-title">Electrical Engineering Student</h2>
+        <p class="about-text" id="about-text">
+          I am a D3 Electrical Engineering student at Politeknik Negeri Semarang (Polines).
+          I have a high interest in electronics, Internet of Things (IoT),
+          and programming. Always enthusiastic about learning new technologies and applying them
+          in real projects.
+        </p>
+        <div class="about-stats stagger-children" id="about-stats">
+          <div class="stat-item">
+            <div class="stat-number" id="stat-projects">0<span class="accent">+</span></div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" id="stat-skills">0<span class="accent">+</span></div>
+            <div class="stat-label">Skills</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">2023<span class="accent"></span></div>
+            <div class="stat-label">Enrollment Year</div>
+          </div>
+        </div>
+        <div class="about-info" id="about-info">
+          <div class="info-item">
+            <span class="info-icon">🎓</span>
+            <div>
+              <div style="font-weight:600; color: var(--clr-primary);">Education</div>
+              <div>D3 Electrical Engineering - Polines</div>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">📍</span>
+            <div>
+              <div style="font-weight:600; color: var(--clr-primary);">Location</div>
+              <div id="about-location">Semarang, Indonesia</div>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">📧</span>
+            <div>
+              <div style="font-weight:600; color: var(--clr-primary);">Email</div>
+              <div id="about-email">email@example.com</div>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">🌐</span>
+            <div>
+              <div style="font-weight:600; color: var(--clr-primary);">Status</div>
+              <div>Open to opportunities</div>
+            </div>
+          </div>
+        </div>
+        <a href="#projects" class="btn btn-primary">
+          <span>📂</span> View My Projects
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION & EXPERIENCE SECTION ========== -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="skills-header reveal">
+        <span class="section-label">Journey</span>
+        <h2 class="section-title">Education & Experience</h2>
+        <p class="section-subtitle">My educational background and work experience</p>
+      </div>
+      <div class="experience-container">
+        <div class="experience-column reveal-left">
+          <h3 class="experience-title">🎓 Education</h3>
+          <div class="timeline" id="education-timeline">
+            <!-- Education loaded by JS -->
+          </div>
+        </div>
+        <div class="experience-column reveal-right">
+          <h3 class="experience-title">💼 Work Experience</h3>
+          <div class="timeline" id="work-timeline">
+            <!-- Work experience loaded by JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS SECTION ========== -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="skills-header reveal">
+        <span class="section-label">Expertise</span>
+        <h2 class="section-title">Skills & Abilities</h2>
+        <p class="section-subtitle">Various skills I have and continue to develop</p>
+      </div>
+      <div class="skills-grid stagger-children" id="skills-grid">
+        <!-- Skills will be loaded by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS SECTION ========== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="projects-header reveal">
+        <span class="section-label">Projects</span>
+        <h2 class="section-title">My Works & Projects</h2>
+        <p class="section-subtitle">A collection of projects I have worked on during college and self-development</p>
+      </div>
+      <div class="projects-grid stagger-children" id="projects-grid">
+        <!-- Projects will be loaded by JS -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact-header reveal">
+        <span class="section-label">Contact</span>
+        <h2 class="section-title">Contact Me</h2>
+        <p class="section-subtitle">Have questions or want to collaborate? Don't hesitate to contact me</p>
+      </div>
+      <div class="contact-grid stagger-children" id="contact-grid">
+        <div class="contact-item">
+          <div class="contact-icon">📧</div>
+          <div>
+            <div class="contact-label">Email</div>
+            <div class="contact-value" id="contact-email">email@example.com</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <div class="contact-label">Location</div>
+            <div class="contact-value" id="contact-location">Semarang, Indonesia</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📱</div>
+          <div>
+            <div class="contact-label">Phone / WhatsApp</div>
+            <div class="contact-value"><a href="#" id="contact-phone" target="_blank"
+                style="color: var(--clr-accent);">+62 000 0000 0000</a></div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🔗</div>
+          <div>
+            <div class="contact-label">LinkedIn</div>
+            <div class="contact-value"><a href="#" id="contact-linkedin" target="_blank"
+                style="color: var(--clr-accent);">View Profile</a></div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📸</div>
+          <div>
+            <div class="contact-label">Instagram</div>
+            <div class="contact-value"><a href="#" id="contact-instagram" target="_blank"
+                style="color: var(--clr-accent);">View Profile</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">© 2023 <span class="accent" id="footer-name">Rendy</span>. All rights reserved.</p>
+      <div class="footer-social" id="footer-social">
+        <a href="#" id="footer-linkedin" target="_blank" title="LinkedIn">in</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== MODAL POPUP ========== -->
+  <div class="modal-overlay" id="detail-modal">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close">&times;</button>
+      <h2 class="modal-title" id="modal-title">Title</h2>
+      <p class="modal-subtitle" id="modal-subtitle">Subtitle</p>
+      <div class="modal-body" id="modal-body">
+        Description goes here...
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
