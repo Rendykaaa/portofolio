@@ -9,7 +9,7 @@ const DEFAULT_PROFILE = {
   bio: 'tech enthusiast specializing in electrical engineering and control systems. Known for my hard-working nature and creative conceptualization, thrive in building automated solutions, from IoT monitoring to advanced hardware integrations.',
   photo: 'foto profile.jpg',
   cv: 'CV_Rendyka.pdf', // Ubah dengan nama file CV Anda
-  email: 'rendycagur17@gmail.com',
+  email: 'rendykasurya17@gmail.com',
   location: 'Semarang, Indonesia',
   linkedin: 'https://www.linkedin.com/in/rendyka-surya-b68206311?utm_source=share_via&utm_content=profile&utm_medium=member_android',
   phone: '+62 85775083617',
